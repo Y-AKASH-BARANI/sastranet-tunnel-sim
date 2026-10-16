@@ -1,0 +1,6 @@
+{
+  "name": "Sastranet Firewalled VM Sim",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "capAdd": ["NET_ADMIN", "NET_RAW", "MKNOD"],
+  "devices": ["/dev/net/tun:/dev/net/tun"]
+}
